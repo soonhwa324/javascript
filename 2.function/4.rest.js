@@ -39,3 +39,10 @@ let arr2 = [4, 5, 6]
 console.log(...arr2)
 //과제: 위 코드를 ...를 안 쓰는 걸로 refactoring 하라.
 console.log(arr2[0], arr2[1], arr2[2])
+
+console.log(...arr, ...arr2)
+console.log(Math.max(...arr, ...arr2))
+console.log(Math.max(0, ...arr, 7, ...arr2, 8))
+
+arr = [0, ...arr2, 9]
+console.log(arr)
