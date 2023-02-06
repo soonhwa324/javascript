@@ -12,7 +12,7 @@ add = function(...args){
 
 console.log(add(1), add(1, 2, 3))
 
-function printName(firstName, lastName, ...titles){
+function printName(firstName, lastName, ...titles){//rest parameter는 마지막에 써야한다
     console.log(firstName, lastName)
     console.log(titles[0], titles[1], titles[2])
     console.log(titles.length)

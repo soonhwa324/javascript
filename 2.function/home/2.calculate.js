@@ -22,7 +22,7 @@ function minus(a, b){//console.log(Boolean(a) a값이 없으면 false가 나온�
     return a - b
 }
 
-function multiply(a, b){
+function multiplay(a, b){
     return a * b
 }
 
@@ -30,12 +30,12 @@ function divide(a, b){
     return a / b
 }
 
-function calculate(a, b, op=multiply){
+function calculate(a, b, op=multiplay){
     return op(a, b)
 }
 
 
 console.log(calculate(1, 2, minus))
-console.log(calculate(1, 2, multiply))
+console.log(calculate(1, 2, multiplay))
 console.log(calculate(1, 2, divide))
 console.log(calculate(1, 2))

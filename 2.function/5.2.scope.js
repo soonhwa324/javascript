@@ -1,4 +1,4 @@
-let a = 1
+let a = 1// global scope
 
 {
     console.log(a)
