@@ -27,7 +27,7 @@ for(let key in user) console.log(key)//Symbol을쓰는이유 감추기위해
 
 console.log(Object.keys(user))
 
-id1 = Symbol.for('regNo')//'id'가 key가 된다
+id1 = Symbol.for('regNo')//'regNo'가 key가 된다
 id2 = Symbol.for('regNo')
 console.log(id1 == id2)
 

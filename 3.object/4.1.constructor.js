@@ -39,7 +39,7 @@ str = new String(1)
 console.log(typeof str)
 
 let human = new function(){
-    this. humanName = 'meg'
+    this.humanName = 'meg'
     this.age = 27
 }
 console.log(typeof human, human.humanName)
@@ -60,7 +60,7 @@ const user = new Object()
 console.log(user)
 user.age = 12
 // view object 
-const person = Object.create(user)
+const person = Object.create(user)//person 을 통해서 user를 볼수있다
 console.log(person)
 console.log(person.age)
 console.log(person == user)
