@@ -27,7 +27,7 @@ class Article{
 
 console.log(Article.publisher)
 
-Article.address = 'seoul'// class. 하고 쓴다
+Article.address = 'seoul'// class. 하고 쓰면 static method
 console.log(Article.address)
 
 Article.getPrice = () => 2000
@@ -37,10 +37,10 @@ console.log(Article.getPrice())
 let article1 = new Article('java', 100)
 let aritcle2 = new Article('javascript', 10)
 
-console.log(Article.compare(article1, aritcle2))
+console.log(Article.compare(article1, aritcle2))//hint값이 number인경우
 
 //
-console.log(`${article1}`)
+console.log(`${article1}`)//hint 값이 string인 경우
 console.log(article1 + '')
 
 //
